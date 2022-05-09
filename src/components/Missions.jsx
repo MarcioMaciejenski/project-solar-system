@@ -9,7 +9,7 @@ class Missions extends React.Component {
       <div data-testid="missions">
         <Title headline="Missões" />
         {missions.map((mission) => (
-          <div key={ mission.name }>
+          <div className="missions" key={ mission.name }>
             <MissionCard // Passado uma prop por linha por causa do Lint.
               name={ mission.name }
               year={ mission.year }

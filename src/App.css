@@ -1,3 +1,63 @@
 .App {
   text-align: center;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(../public/starry-night-sky.jpg);
+}
+
+#header {
+  color: white;
+  text-align: center;
+  padding: 50px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 80px;
+}
+
+.planet-name {
+  color: white;
+  font-size: 22px;
+  text-align: center;
+}
+
+.planet-img {
+ width: 150px;
+ height: 150px;
+ object-fit: contain;
+}
+
+.planets {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-planets {
+  display: inline-block;
+  padding: 150px 5px;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-size: 65px;
+  border: 3px solid white;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 20px;
+}
+
+.mission-card {
+  color: white;
+  font-size: 22px;
+  border: 1.5px solid white;
+  border-radius: 10%;
+  padding: 20px;
+  margin: 100px 50px;
+}
+
+.missions {
+  display:inline-flex;
+}

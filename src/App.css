@@ -1,20 +1,20 @@
+* {
+  background-image: url('./images/background.png');
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background-image: url(../public/starry-night-sky.jpg);
-}
-
-#header {
+.header {
   color: white;
-  text-align: center;
-  padding: 50px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: Arial , sans-serif;
   font-size: 80px;
+  padding: 50px;
+  text-align: center;
 }
 
 .planet-name {
@@ -24,9 +24,9 @@
 }
 
 .planet-img {
- width: 150px;
- height: 150px;
- object-fit: contain;
+  height: 150px;
+  object-fit: contain;
+  width: 150px;
 }
 
 .planets {
@@ -40,24 +40,24 @@
 }
 
 .title {
-  color: white;
-  text-align: center;
-  font-size: 65px;
   border: 3px solid white;
+  border-radius: 20px;
+  color: white;
+  font-size: 65px;
   margin-left: 10%;
   margin-right: 10%;
-  border-radius: 20px;
+  text-align: center;
 }
 
 .mission-card {
-  color: white;
-  font-size: 22px;
   border: 1.5px solid white;
   border-radius: 10%;
-  padding: 20px;
+  color: white;
+  font-size: 22px;
   height: 250px;
-  width: 220px;
   margin: 30px 20px;
+  padding: 20px;
+  width: 235px;
 }
 
 .missions {
@@ -68,6 +68,11 @@
 }
 
 .mission-name {
-  margin-bottom: 15px;
   border-bottom: 1.5px solid white;
+  font-weight: 800;
+  text-align: left;
+}
+
+.mission-card p {
+  padding: 5px;
 }

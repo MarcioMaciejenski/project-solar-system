@@ -55,9 +55,19 @@
   border: 1.5px solid white;
   border-radius: 10%;
   padding: 20px;
-  margin: 100px 50px;
+  height: 250px;
+  width: 220px;
+  margin: 30px 20px;
 }
 
 .missions {
-  display:inline-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 30px 200px;
+}
+
+.mission-name {
+  margin-bottom: 15px;
+  border-bottom: 1.5px solid white;
 }

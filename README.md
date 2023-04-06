@@ -15,12 +15,12 @@ componentes React responsáveis pela renderização das informações na tela do
 # Rodar o projeto localmente
 Obs: todos os comandos abaixo devem ser executados no terminal<br>
 1. Faça o clone do repositório <br>
-git clone git@github.com:MarcioMaciejenski/project-solar-system.git <br>
+```git clone git@github.com:MarcioMaciejenski/project-solar-system.git``` <br>
 2. Entre no diretório do projeto <br>
-cd project-solar-system <br>
+```cd project-solar-system``` <br>
 3. Instale as dependências necessárias <br>
-npm install <br>
+```npm install``` <br>
 4. Inicialize o projeto <br>
-npm start <br>
+```npm start``` <br>
 <hr>
 Desenvolvido por <a href="https://www.linkedin.com/in/marcio-maciejenski/" target="_blank">Márcio Maciejenski</a>
